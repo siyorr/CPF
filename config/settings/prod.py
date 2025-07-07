@@ -11,7 +11,7 @@ environ.Env.read_env(BASE_DIR / '.env')
 
 DATABASES = {
     'default': {
-        'ENGINE': 'ibm_db_django',
+        'ENGINE': 'ibm_db',
         'NAME': env('DB_NAME'),
         'USER': env('DB_USER'),
         'PASSWORD': env('DB_PASSWORD'),
